@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<Sponsors>
+  <Sponsor>
+    <SponsorID>1</SponsorID>
+    <Name>Police</Name>
+    <Website>Police.caught</Website>
+    <Picture>PoliceLogo.jpg</Picture>
+  </Sponsor>
+  <Sponsor>
+    <SponsorID>2</SponsorID>
+    <Name>Local Shop</Name>
+    <Website>Localshop.now</Website>
+    <Picture>LocalLogo.jpg</Picture>
+  </Sponsor>
+  <Sponsor>
+    <SponsorID>3</SponsorID>
+    <Name>Pizza Place</Name>
+    <Website>Pizzaplace.dk</Website>
+    <Picture>PizzaLogo.jpg</Picture>
+  </Sponsor>
+</Sponsors>

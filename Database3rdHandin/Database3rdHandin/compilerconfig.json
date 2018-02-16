@@ -1,0 +1,38 @@
+﻿[
+  {
+    "outputFile": "Global.css",
+    "inputFile": "Global.scss"
+  },
+  {
+    "outputFile": "TreatmentStyles.css",
+    "inputFile": "TreatmentStyles.scss"
+  },
+  {
+    "outputFile": "LoginStyle.css",
+    "inputFile": "LoginStyle.scss"
+  },
+  {
+    "outputFile": "OnlyWhenLogged.css",
+    "inputFile": "OnlyWhenLogged.scss"
+  },
+  {
+    "outputFile": "BookReservation.css",
+    "inputFile": "BookReservation.scss"
+  },
+  {
+    "outputFile": "PatientLogin.css",
+    "inputFile": "PatientLogin.scss"
+  },
+  {
+    "outputFile": "AdminPanel.css",
+    "inputFile": "AdminPanel.scss"
+  },
+  {
+    "outputFile": "Account/OnlyWhenLogged.css",
+    "inputFile": "Account/OnlyWhenLogged.scss"
+  },
+  {
+    "outputFile": "Signup.css",
+    "inputFile": "Signup.scss"
+  }
+]

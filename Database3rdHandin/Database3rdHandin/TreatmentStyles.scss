@@ -1,0 +1,78 @@
+﻿body { /*
+    background-image: url("Images/DentistBGouch.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+*/
+    form {
+    }
+
+    div {
+
+
+
+        table {
+            background-color: rgba(0, 0, 0, 0.1);
+
+            tbody {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                tr {
+                    td {
+                        width: 200px;
+
+                        img {
+                            width: 100px;
+                            height: auto;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.div-selection {
+    display: flex;
+    align-items: center;
+
+    input {
+        width: 60%;
+        margin-top: 1em;
+    }
+}
+.div-selection {
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+}
+@media only screen and (min-width: 765px) {
+
+   
+    }
+@media only screen and (max-width: 765px) {
+    .MyTable {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+
+         tbody {
+            background-color: rgba(0,0,0,.1);
+        }
+    }
+    td:nth-child(1), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+        display: none;
+    }
+}#ButtonLogout{
+     width: 50%;
+ }
+
+#MainPageContent_LabelMessage{
+   
+}

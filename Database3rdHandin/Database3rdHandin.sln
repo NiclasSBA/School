@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database3rdHandin", "Database3rdHandin\Database3rdHandin.csproj", "{AA84D5BE-AB99-4AA5-A356-611E6EA37BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA84D5BE-AB99-4AA5-A356-611E6EA37BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA84D5BE-AB99-4AA5-A356-611E6EA37BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA84D5BE-AB99-4AA5-A356-611E6EA37BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA84D5BE-AB99-4AA5-A356-611E6EA37BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD465489-F953-4D3C-A51A-04A60FCDAD8D}
+	EndGlobalSection
+EndGlobal

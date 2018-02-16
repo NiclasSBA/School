@@ -1,0 +1,86 @@
+﻿#TableSponsors{
+    tbody{
+        display:flex;
+        flex-wrap:wrap;
+    }
+}
+body {
+    form {
+
+        section {
+            margin-top: 20px;
+            background-image: url("/Images/DentistBG.jpg");
+
+            .login {
+
+
+                div {
+                    font-family: Arial, Helvetica, sans-serif;
+                    display: flex;
+                    flex-direction:column;
+                    width: 200px;
+                    span{
+                        background-color: aqua;
+                        width: 100%;
+                        text-align:center;
+                        background-color: transparent;
+                    }
+                   input{
+                    border-radius: 20px;
+                    
+                    width: 100%;
+                    height: 30px;
+                    border: none;
+                    border-radius: 30px;
+                    }
+                }
+            }
+
+           > div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                top: 30%;
+            }
+        }
+    }
+
+    #CreatingFormPatient {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+
+        div {
+            display: flex;
+
+            span {
+                display: flex;
+                justify-content: center;
+                width: 200px;
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+}
+
+#TableSponsors {
+    tbody {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    td {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+
+       img{
+           max-width: 250px;
+            height: auto;
+        }
+    }
+}

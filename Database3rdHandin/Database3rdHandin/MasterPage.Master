@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Database3rdHandin.MasterPage" %>
+
+<!DOCTYPE html>
+
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Global.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <div id="head-div">
+        <div class="logo">
+            <a href="~/Login.aspx" runat="server"><img src="/Images/Logo.jpg" alt="logo"/></a></div>
+     
+        <div class="total-menu">
+             <div class="div-menu-button"  onclick="openNav()" > <span  id="OpenMenu">☰ 
+         </span></div>
+        <nav id="Main-Nav">
+            
+            <ul>
+                <li> <a href="javascript:void(0)" onclick="closeNav()">x</a></li>
+                <li><a href="~/Login.aspx" runat="server">Dentist Login</a></li>
+                <li><a href="~/Treatments.aspx" runat="server">Treatments</a></li>
+                <li><a href="~/BookReservation.aspx" runat="server">Book a reservation</a></li>
+                <li><a href="~/LoginPatient.aspx" runat="server">Patient Login</a></li>
+                <li><a href="~/AdminPanel.aspx" runat="server">Admin Panel</a></li>
+                <li><a href="~/Account/OnlyWhenLoggedIn.aspx" runat="server">Members Only</a></li>
+                
+                <li><a href="~/Usersettings.aspx" runat="server">Sign Up</a></li>
+                
+            </ul>
+
+        </nav>
+            </div>
+        
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentBG" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="MainPageContent" runat="server">
+
+
+                
+            </asp:ContentPlaceHolder>
+            
+            
+        </div>
+        <asp:Button ID="ButtonLogout" runat="server" Text="Logout" OnClick="LinkButton1_Click" />
+    </form>
+
+    <footer class="footer"> <p> Totally legit Dentist - Not organ thieves AT ALL</p>
+        
+
+    </footer>
+    <script>
+function openNav() {
+    var x = document.getElementById("Main-Nav");
+    
+        if (x.width != 0) {
+            document.getElementById("Main-Nav").style.display = "flex";
+            document.getElementById("OpenMenu").style.display = "none";
+    } //else{document.getElementById("").style.width = "-50px";}
+}
+
+        function closeNav() {
+            document.getElementById("Main-Nav").style.display = "none";
+            document.getElementById("OpenMenu").style.display="flex";
+    
+   
+}
+</script>
+</body>
+</html>
